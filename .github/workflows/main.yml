@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: CarbonSmasher/packtest_runner@ddbe30797f388a8efe89922c68f40d98668ed95a
+      - uses: CarbonSmasher/packtest_runner@5fd4c7d1f4d67de0be68c6319d92972d50308e2a
         with:
           packs: example-datapack.zip
