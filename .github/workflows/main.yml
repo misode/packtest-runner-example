@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: CarbonSmasher/packtest_runner@9d13d673bf9d3f2fad2b833d036e5e12ff65e056
         with:
-          packs: 'failing,succeeding'
+          packs: 'failing,succeeding.zip'
